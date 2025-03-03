@@ -1,10 +1,10 @@
 package com.loop;
-//1 2 3 4 5 
-//1 2 3 4 5 
-//1 2 3 4 5 
-//1 2 3 4 5 
-//1 2 3 4 5 
-public class Seq6 {
+//1 0 1 0 1  
+//1 0 1 0 1  
+//1 0 1 0 1  
+//1 0 1 0 1  
+//1 0 1 0 1  
+public class Pattern1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
