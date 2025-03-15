@@ -14,6 +14,7 @@ float[] e=new float[5];
 double[] f=new double[5];
 boolean[] g=new boolean[5];
 char[] h=new char[5];
+
 System.out.println("byte "+b[2]);
 System.out.println("short "+c[2]);
 System.out.println("int "+a[2]);
