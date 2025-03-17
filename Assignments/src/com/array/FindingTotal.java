@@ -20,7 +20,8 @@ public class FindingTotal {
 			total=total+marks[i];
 			
 		}
-		System.out.println("Total marks : "+total+" "+" percentage is : "+total/5);
+			
+		
 	}
 
 }
