@@ -11,11 +11,12 @@ public class FindMaxArray {
 
 	private  static int find_max(int[] a) {
 		// TODO Auto-generated method stub
-		int max=a[0];
+		int max=a[0],count=0;
 		for(int i=0;i<a.length;i++) {
 			 //max=a[0];
 		if(max<a[i]) {
 			max=a[i];
+			
 		}
 		
 	}
