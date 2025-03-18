@@ -34,7 +34,7 @@ find_thirdhighest(a);
 
 	private static void find_highest(int[] a) {
 		// TODO Auto-generated method stub
-		int highest=a[0];
+		int highest=0;
 		for(int i=0;i<a.length;i++) {
 			if(highest<=a[i]) { 
 				
