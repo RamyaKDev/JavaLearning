@@ -23,11 +23,11 @@ public class PatternPrograms {
 		//patternY();
 		//patterntest();
 		//patternP();
-		//patternR();
+		patternR();
 		//patternK();
 		//patternS();
 		//patternA();
-		patternQ();
+		//patternQ();
 		
 	}
 
