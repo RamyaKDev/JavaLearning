@@ -8,38 +8,34 @@ public class Merge2Sortarrays {
 		int[] b= {2,4,8};
 		int n=a.length;
 		int m=b.length;
-		int num=0;
-		int num1=0;
+		
 		int i=0;
 		int k=0,j=0;
 		int[] c=new int[n+m];
 		
 					while(i<n&&j<m) {
-				if(a[i]<b[j]) {
-					
-					c[k++]=a[i++];			
-					
+				if(a[i]<b[j]) {					
+					c[k]=a[i];			
+					k++;
+					i++;
 				}
 				else {
-					c[k++]=b[j++];
-					
+					c[k]=b[j];
+					k++;
+					j++;
 					
 					}
 				
 				}
-					while(i<n) {
-						c[k++]=a[i++];	
-					}
-			while(j<m){
+					// following if - prints remaining elements 
+				if(i<n) {// from a and b array
+					System.out.println(i+" "+n);
+					c[k++]=a[i++];	
+				}
+			if(j<m){
+				System.out.println(j+" "+m);
 				c[k++]=b[j++];
 			}
-//			num=c[i];
-//			//num1=c[i+1];
-//			System.out.print(num+" "+num1+" ");
-		
-		
-		
-
 		for(int y=0;y<c.length;y++) {
 			System.out.print(c[y]+" ");
 		}
