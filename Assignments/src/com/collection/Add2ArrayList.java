@@ -2,7 +2,7 @@ package com.collection;
 
 import java.util.ArrayList;
 
-public class Print_Specific_Object {
+public class Add2ArrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,14 +16,13 @@ public class Print_Specific_Object {
 		al.add(2L);
 		al.add(56.3d);
 		al.add(5);
-		for(Object ob : al) {// Assigning all primitive 
-			try {//class object to object class
-			Integer i= (Integer) ob;// Converting one class object to other class
-			System.out.println(i);
-			}catch(ClassCastException ce) {
-				
-			}
-		}
+		
+		ArrayList al1=new ArrayList();
+		al1.add(100);
+		al1.add(200);
+		al1.add(300);
+		al.addAll(2, al1);
+		System.out.println(al);
 	}
 
 }

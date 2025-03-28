@@ -20,9 +20,7 @@ public class RemoveWords {
 				boolean flag=false;
 				for(String s : stop_words) {
 					if((i.equalsIgnoreCase(s)))				
-						flag=true;	
-					
-									
+						flag=true;									
 			}
 				if(flag==false)
 				sb.append(i);
