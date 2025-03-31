@@ -19,17 +19,7 @@ public class StringCompareTo {
 			System.out.println("S comes first");
 		else	
 			System.out.println("A comes first");  
-//			  m.out.println("S ");
-//		else if(a2>a1 && a2>a3)
-//			System.out.println("A ");
-//		else
-//			System.out.println("M ");
-//		TreeSet ts=new TreeSet();
-//		ts.add(name1);
-//		ts.add(name2);
-//		ts.add(name3);
-//		System.out.println(ts);
-
+//			 
 	}
 
 }

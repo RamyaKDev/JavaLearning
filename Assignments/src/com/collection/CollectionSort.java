@@ -20,7 +20,7 @@ public class CollectionSort {
 		System.out.println(al);
 	Collections.sort(al);
 
-		System.out.println(ts);
+		
 	}
 
 }
