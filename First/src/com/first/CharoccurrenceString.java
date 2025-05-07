@@ -25,9 +25,11 @@ public class CharoccurrenceString {
 				charCountMap.put(c,1 );
 			}
 		}
-		for(Map.Entry entry:charCountMap.entrySet()) {
-			System.out.println(entry.getKey()+"  "+entry.getValue());
-		}
+//		for(Map.Entry entry:charCountMap.entrySet()) {
+//			System.out.println(entry.getKey()+"  "+entry.getValue());
+//		}
+		charCountMap.entrySet().stream()
+		.forEach(entry->System.out.println(entry.getKey()+" "+entry.getValue()));
 	}
 
 }
