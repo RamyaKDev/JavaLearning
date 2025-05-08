@@ -40,7 +40,7 @@ public class ListStreams {
 //		.distinct()
 //		.sorted((no1,no2)->no2.compareTo(no1))
 //		.forEach(System.out::println);
-		
+
 //		Optional<Integer> no=l.stream()
 //		.min((no1,no2)->no1.compareTo(no2));		
 //		System.out.println(no.get());

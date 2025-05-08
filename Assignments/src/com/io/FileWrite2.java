@@ -11,22 +11,22 @@ public class FileWrite2 {
 		File note=new File("D://1_Besant//Testing//sample/new.txt");
 		note.createNewFile();
 		
-		//Using FileWriter
-		FileWriter pen=new FileWriter(note);
+		// Using FileWriter
+		FileWriter pen = new FileWriter(note);
 		pen.write("This is my first line.");
 		pen.write("\n");
 		pen.write("This is my second line.");
 		pen.write("\n");
-		//pen.close();
-	   
-		 // Using BufferedWriter
-		
-		BufferedWriter writer= new BufferedWriter(pen);
+		// pen.close();
+
+		// Using BufferedWriter
+
+		BufferedWriter writer = new BufferedWriter(pen);
 		writer.append("This is my third line.");
 		writer.newLine();
 		writer.append("This is my fourth line.");
-		 writer.flush();
-		 writer.close();
+		writer.flush();
+		writer.close();
 	   
 
 	}

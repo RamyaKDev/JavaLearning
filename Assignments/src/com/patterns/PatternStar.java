@@ -11,10 +11,25 @@ public class PatternStar {
 		//patternstar3();
 		//patternstar4();
 		//patternstar5();
-		patternstar6();
+		//patternstar6();
+		patternstar7();
 
 }
 	
+
+	private static void patternstar7() {
+		for(int row=1;row<=5;row++) {
+			for(int space=1;space<=5-row;space++) {
+				System.out.print(" ");
+			}
+			for(int num=1;num<=row;num++) {
+				System.out.print("* ");
+			}
+			System.out.println("  ");
+		}
+		
+	}
+
 
 	private static void patternstar6() {
 		// TODO Auto-generated method stub
