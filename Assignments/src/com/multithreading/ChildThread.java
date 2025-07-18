@@ -5,7 +5,7 @@ public class ChildThread {
 	public static void main(String[] args) {
 		DemoThread dt=new DemoThread();
 		dt.start();
-		dt.start();
+		
 		ChildThread ct=new ChildThread();
 		ct.display();
 	}
