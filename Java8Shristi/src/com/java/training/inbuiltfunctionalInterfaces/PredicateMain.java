@@ -25,6 +25,7 @@ public class PredicateMain {
 		System.out.println(pint.test(5));
 		
 		DoublePredicate pdouble=(n)->Math.random()<=n;
+		//random function generates number from 0 to 1
 		System.out.println(pdouble.test(0.5));
 	}
 
