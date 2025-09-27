@@ -1,4 +1,4 @@
-package com.java.youtube.lofstrings;
+package com.java.youtube.lofstrings.basic;
 
 import java.util.Arrays;
 import java.util.Iterator;
