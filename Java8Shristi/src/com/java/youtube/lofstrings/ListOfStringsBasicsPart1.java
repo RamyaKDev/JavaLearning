@@ -1,4 +1,4 @@
-package com.java.youtube.lofstringbasic;
+package com.java.youtube.lofstrings;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class ListOfStringsPart1 {
+public class ListOfStringsBasicsPart1 {
 
 	public static void main(String[] args) {
 		//1. Convert a list of strings to uppercase , sort them and print
@@ -65,6 +65,8 @@ public class ListOfStringsPart1 {
 		
 		System.out.println(intst);
 		
+		
+		//
 		}
 
 }

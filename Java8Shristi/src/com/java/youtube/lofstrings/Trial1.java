@@ -1,4 +1,4 @@
-package com.java.youtube.lofstringbasic;
+package com.java.youtube.lofstrings;
 
 
 class greet{
