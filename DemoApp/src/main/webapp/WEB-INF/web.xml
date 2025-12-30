@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>abc</servlet-name>
+        <servlet-class>com.newservlet.AddServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>abc</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+</web-app>
