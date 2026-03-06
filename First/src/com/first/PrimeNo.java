@@ -2,8 +2,6 @@ package com.first;
 
 public class PrimeNo {
 
-	
-
 	    // Function to print all the
 	    // prime numbers till N
 	    static void prime_N(int N)
