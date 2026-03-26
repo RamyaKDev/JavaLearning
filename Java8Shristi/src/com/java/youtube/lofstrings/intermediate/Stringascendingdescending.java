@@ -24,10 +24,15 @@ public class Stringascendingdescending {
 //		.forEach(System.out::println);
 		
 		
-		//using comparator.comparing() static method
+//		//using comparator.comparing() static method
+//		fruits.stream()
+//		//.sorted(Comparator.comparing(String::length)) //- ascending order
+//		.sorted(Comparator.comparing(String::length).reversed())  //- descending order
+//		.forEach(System.out::println);
+		
 		fruits.stream()
-		//.sorted(Comparator.comparing(String::length)) //- ascending order
-		.sorted(Comparator.comparing(String::length).reversed())  //- descending order
+		.map(str->str.length())
+		.sorted()
 		.forEach(System.out::println);
 	}
 	
